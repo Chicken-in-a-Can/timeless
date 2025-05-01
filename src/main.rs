@@ -1,3 +1,5 @@
+use timeless::graphics;
+
 fn main() {
-    println!("Hello, world!");
+    graphics::window::run_window();
 }
