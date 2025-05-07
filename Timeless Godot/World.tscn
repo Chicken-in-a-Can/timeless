@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dl0b07ir252y2"]
+
+[ext_resource type="PackedScene" uid="uid://be5dhw8jydqfy" path="res://Character/Player/Player.tscn" id="1_2rvlf"]
+
+[sub_resource type="TorusMesh" id="TorusMesh_oee7m"]
+
+[node name="World" type="Node3D"]
+
+[node name="Player" parent="." instance=ExtResource("1_2rvlf")]
+transform = Transform3D(0.220871, -0.000168877, -0.975303, 0.00170672, 0.999999, 0.000213365, 0.975302, -0.0017117, 0.220871, -5.64603, 0.499986, 1.8111)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.808103, -0.589041, 0, 0.589041, 0.808103, 0, 0, 0, 1, -0.00425482, 0.200922, 0.0209665)
+mesh = SubResource("TorusMesh_oee7m")
