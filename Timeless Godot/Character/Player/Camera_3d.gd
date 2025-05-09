@@ -16,6 +16,7 @@ func _input(event: InputEvent) -> void:
 	if(captured):
 		if(event is InputEventMouseMotion):
 				rotation.y -= event.relative.x * .005
+				#Need to introduce vertical direction
 		elif(event is InputEventKey):
 			if(event.keycode == 4194305): #escape
 				Input.mouse_mode = Input.MOUSE_MODE_VISIBLE

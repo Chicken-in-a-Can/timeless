@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://b2o88cx4oeu4i"]
+
+[ext_resource type="Script" path="res://Interactables/Light Bulb/light_bulb.gd" id="1_8w8ny"]
+[ext_resource type="Script" path="res://Interactables/recordable.gd" id="1_dtvr5"]
+
+[node name="LightBulb" type="Node3D"]
+script = ExtResource("1_8w8ny")
+
+[node name="Recordable" type="Node" parent="."]
+script = ExtResource("1_dtvr5")

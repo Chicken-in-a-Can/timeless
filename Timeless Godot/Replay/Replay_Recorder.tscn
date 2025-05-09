@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqor1v2g63rly"]
+
+[ext_resource type="Script" path="res://Replay/replay_recorder.gd" id="1_whwck"]
+
+[node name="ReplayRecorder" type="Node"]
+script = ExtResource("1_whwck")

@@ -15,6 +15,14 @@ run/main_scene="res://World.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+ReplayRecorder="*res://Replay/replay_recorder.gd"
+
+[global_group]
+
+Recordables=""
+
 [input]
 
 move_right={

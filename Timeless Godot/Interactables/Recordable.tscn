@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://r8u66mp6c7vn"]
+
+[ext_resource type="Script" path="res://Interactables/recordable.gd" id="1_c4srl"]
+
+[node name="Recordable" type="Node" groups=["Recordable"]]
+script = ExtResource("1_c4srl")
